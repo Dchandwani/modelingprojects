@@ -1,0 +1,26 @@
+COLUMN TABLE "funding_rounds" 
+(
+	   "id" INTEGER, 
+	   "funding_round_id"  VARCHAR(20),
+	   "object_id"  VARCHAR(20),
+	   "funded_at" DATE,
+	   "funding_round_type" VARCHAR(100),
+	   "funding_round_code" VARCHAR(50),
+	   "raised_amount_usd" DECIMAL,
+	   "raised_amount" DECIMAL,
+	   "raised_currency_code" VARCHAR(20),
+	   "pre_money_valuation_usd" DECIMAL,
+	   "pre_money_valuation" DECIMAL,
+	   "pre_money_currency_code" VARCHAR(20),
+	   "post_money_valuation_usd" DECIMAL,
+	   "post_money_valuation" DECIMAL,
+	   "post_money_currency_code" VARCHAR(20),
+	   "participants" NUMERIC,
+	   "is_first_round" BINARY,
+	   "is_last_round" BINARY,
+	   "source_url" VARCHAR(2000),
+	   "source_description" VARCHAR(2000),
+	   "created_by" VARCHAR(500),
+	   "created_at" DATETIME,
+	   "updated_at" DATETIME
+)

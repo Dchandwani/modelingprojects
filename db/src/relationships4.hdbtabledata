@@ -1,0 +1,28 @@
+{
+    "format_version": 1,
+    "imports": [
+        {
+            "target_table": "relationships4",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "relationships4.csv",
+                "has_header": true
+            },
+            "import_settings": {
+                "import_columns": [
+                    "id", 
+                    "relationship_id",
+                    "person_object_id",
+                    "relationship_object_id",
+                    "start_at",
+                    "end_at",
+                    "is_past" ,
+                    "sequence",
+                    "title",
+                    "created_at",
+                    "updated_at"
+                ]
+            }
+        }
+    ]
+}

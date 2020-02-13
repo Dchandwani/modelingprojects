@@ -1,0 +1,25 @@
+{
+    "format_version": 1,
+    "imports": [
+        {
+            "target_table": "degrees",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "degrees.csv",
+                "has_header": true
+            },
+            "import_settings": {
+                "import_columns": [
+                    "id", 
+                    "object_id",
+                    "degree_type",
+                    "subject",
+                    "institution",
+                    "graduated_at",
+                    "created_at",
+                    "updated_at"
+                ]
+            }
+        }
+    ]
+}

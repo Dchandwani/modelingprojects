@@ -1,0 +1,15 @@
+COLUMN TABLE "acquisitions" 
+(
+   "id" INTEGER, 
+   "acquisition_id" INTEGER,
+   "acquiring_object_id" VARCHAR(20),
+   "acquired_object_id" VARCHAR(20),
+   "term_code" VARCHAR(100),
+   "price_amount" DECIMAL,
+   "price_currency_code" VARCHAR(100),
+   "acquired_at" DATE,
+   "source_url" VARCHAR(2000) ,
+   "source_description" VARCHAR(2000),
+   "created_at" DATETIME,
+   "updated_at" DATETIME
+)

@@ -1,0 +1,11 @@
+COLUMN TABLE "degrees" 
+(
+   "id" INTEGER, 
+   "object_id"  VARCHAR(20),
+   "degree_type" VARCHAR(500),
+   "subject" VARCHAR(500),
+   "institution" VARCHAR(500),
+   "graduated_at" DATE,
+   "created_at" DATETIME,
+   "updated_at" DATETIME
+)

@@ -1,0 +1,40 @@
+{
+    "format_version": 1,
+    "imports": [
+        {
+            "target_table": "funding_rounds",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "funding_rounds.csv",
+                "has_header": true
+            },
+            "import_settings": {
+                "import_columns": [
+                   "id", 
+				   "funding_round_id"  ,
+				   "object_id"  ,
+				   "funded_at",
+				   "funding_round_type" ,
+				   "funding_round_code" ,
+				   "raised_amount_usd" ,
+				   "raised_amount" ,
+				   "raised_currency_code" ,
+				   "pre_money_valuation_usd" ,
+				   "pre_money_valuation" ,
+				   "pre_money_currency_code" ,
+				   "post_money_valuation_usd" ,
+				   "post_money_valuation" ,
+				   "post_money_currency_code" ,
+				   "participants" ,
+				   "is_first_round" ,
+				   "is_last_round" ,
+				   "source_url" ,
+				   "source_description" ,
+				   "created_by",
+				   "created_at",
+				   "updated_at" 
+                ]
+            }
+        }
+    ]
+}

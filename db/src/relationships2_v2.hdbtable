@@ -1,0 +1,14 @@
+COLUMN TABLE "relationships2_v2" 
+(
+   "id" INTEGER, 
+   "relationship_id" VARCHAR(20),
+   "person_object_id" VARCHAR(20),
+   "relationship_object_id" VARCHAR(20),
+   "start_at" DATE,
+   "end_at" DATE,
+   "is_past" INTEGER,
+   "sequence" INTEGER,
+   "title" VARCHAR(500),
+   "created_at" DATETIME,
+   "updated_at" DATETIME
+)
